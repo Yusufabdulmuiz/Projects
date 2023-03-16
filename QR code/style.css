@@ -55,8 +55,8 @@ a {
     
 
     .container {
-        max-width: 375px;
-        margin:500px;
+        min-width: 175px;
+        
 
 height: 700px;
     }
