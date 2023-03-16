@@ -32,7 +32,7 @@ img{
       
 }
 .box h1{  
-    font-sizedi: 25px;
+    font-sizedi: 20px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
@@ -54,12 +54,14 @@ a {
 @media (max-width:375px) {
     
 
-    .container {
-        width: 300px;
-        margin:0 40px;
-        dis;
+    .img {
+    max-width:100px;
+    }
+        
+        
+        
         
 
-height: 700px;
-    }
+
+    
 }
