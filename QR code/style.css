@@ -57,7 +57,7 @@ a {
     .container {
         width: 300px;
         margin:40px auto;
-        display:block;
+        display:inline-block;
         
 
 height: 700px;
