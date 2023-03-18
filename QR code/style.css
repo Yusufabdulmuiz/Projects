@@ -8,13 +8,13 @@
 
 }
 body {
-  background-color:hsl(220, 15%, 55%) ; 
+  background-color:hsl(212, 45%, 89%) ; 
   font-family: 'Outfit', sans-serif; 
   
 }
 .container{
     
-    height: 570px;
+   min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,25 +22,31 @@ body {
 }
 img{
     border-radius: 20px;
-    max-width: 300px;
+    max-width: 28px;
     margin: 18px;
 }
 .container .box {
     background: white;
     border-radius: 20px; 
-    text-align: center;
+    max-width:320px;
+    padding 16px;
+    max-width:320px;
+    
       
 }
 .box h1{  
     font-size: 25px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
+    text-align:center;
+    padding-top:16px;
 }
 .box p {
     font-size: 18px;
     margin: 20px 0;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+    text-align:center;
 }
 footer {
     text-align: center;
